@@ -25,9 +25,11 @@ Contents:
 
 Clone the repository
 	
-	git clone https://github.com/darijo/QLink.git
+	git clone https://github.com/darijo/360-Video-DASH-Dataset.git
 
-	
+Install Kvazaar HEVC encoder
+
+	https://github.com/ultravideo/kvazaar
 
 
 ## Usage
