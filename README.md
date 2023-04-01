@@ -9,7 +9,7 @@ Contents:
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Logging](#logging)
+- [360 Video Tiled Dataset](#360Dataset)
 - [Caveats](#caveats)
 - [Acknowledgements](#acknowledgements)
 
@@ -111,3 +111,7 @@ $ python encoding.py
 **NOTE**
 
 Script encoding.py and  input.json file need to be in the same folder in order to above command work
+
+## 360 Video Tiled Dataset
+
+Real VR datset including 9 videos is available at https://tinyurl.com/3brdmm4s
