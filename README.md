@@ -42,7 +42,9 @@ Install Pytube library
 
 There are three main steps for creation of 360 Tiled DASH Videos
 
- ### Download 360 Videos
+  - Download 360 untiled, non-dashed Videos from YouTube
+  - Prepare configuration outlining segment duration, bitrate ladder and tilling configuration for each downloaded video
+  - Encode the downloaded videos into 360 tiled dashed video sequneces
  
 
 
