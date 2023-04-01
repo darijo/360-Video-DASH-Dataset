@@ -58,5 +58,20 @@ $ python video_downloads.py --path_to_config_file
 
 ```
 
+The template for configuration file is shown below
+
+```json
+
+{"URLS":[
+{
+    "base_url": "https://www.youtube.com/watch?v=",
+    "urls": ["-xNN-bJQ4vI", "-9YJppTxIDM", 
+    "93nxeejhPkU", "6TlW1ClEBLY", 
+    "9XR2CZi3V5k", "AX4hWfyHr5g"],
+    "folder": "dataset"
+}
+]}
+
+```
 
 
