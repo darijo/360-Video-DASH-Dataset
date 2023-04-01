@@ -35,17 +35,26 @@ Install Kvazaar HEVC encoder
 Install Pytube library
 	
 	https://pytube.io/en/latest/index.html
-	
+
+Install GPAC multimedia framework (build from source)
+	https://github.com/gpac/gpac
 
 
 ## Usage
 
 There are three main steps for creation of 360 Tiled DASH Videos
 
-  - Download 360 untiled, non-dashed Videos from YouTube
+  - Download 360 untiled, non-dashed videos from YouTube
   - Prepare configuration outlining segment duration, bitrate ladder and tilling configuration for each downloaded video
   - Encode the downloaded videos into 360 tiled dashed video sequneces
- 
+
+### Step 1: Download 360 videos from Youtube
+
+The following command downloads the video with the highest bitrate and resolution. The tool is designed to download the provided video IDs using the ___pytube___ library. It is important to ensure that the used libraries are up to date to avoid issues related to Google API updates. If the tool failed to download, an error message is printed to the screen. 
+
+	```console
+	python video_downloads.py --path_to_config_file 
+ 	```
 
 
 
