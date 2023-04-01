@@ -73,3 +73,37 @@ The template for configuration file is shown below
 ```
 
 The configuration file defines the base URL,the list of videos to download, and the location where to save downloaded videos.
+
+### Step 2: Generate configuration file for each video
+
+The following command creates a configuration file specifying the tiling configuration, segment durations, and quality bitrate used to generate the 360 dashed tiled video dataset. 
+
+```console
+
+$ python gen_config_files.py --path path to folder with 360 videos --output_path location where to store config file 
+
+```
+
+Lower limit for quality bitrates is set to 4Mbps, while the maximum bitrate is set to native encoded bitrate (obtained using the ___mediainfo___ command) of the video file. Intermediate-quality bitrates are calculated so that the subsequent bitrate has a value 50\% higher compared to the previous one. For the tile configuration, we tile the video in seven configurations: **3x2**, **3x3**, **4x2**, **4x4**, **5x5**, **6x4**, and **8x5**. Furthermore, we use the 1s, 2s, 4s, and 6s for the duration of the segment. An example of a configuration file is depicted below
+
+```json
+
+{"Input":[
+{
+    "Name": "Closet_SetTourIn360VRSCREAMQUEENS.webm",
+    "Configurations": ["3x2", "3x3", "4x2", "4x4", "5x5", "6x4", "8x5"],
+    "Bitrates": [5807407, 8711111, 13066666, 19600000],
+    "Segment_Durations":["1000", "2000", "4000", "6000"]
+}]}
+
+```
+
+### Step 3: Encoding videos into 360 tiled dashed videos
+
+The following command creates 360 dashed tiled videos based on the previously created configuration file.
+
+```console
+
+$ python encoding.py  
+
+```
