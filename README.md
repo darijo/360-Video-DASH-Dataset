@@ -10,7 +10,6 @@ Contents:
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dataset](#dataset)
-- [Caveats](#caveats)
 - [Acknowledgements](#acknowledgements)
 
 
