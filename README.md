@@ -31,6 +31,11 @@ Install Kvazaar HEVC encoder
 
 	https://github.com/ultravideo/kvazaar
 
+Install Pytube library
+	
+	https://pytube.io/en/latest/index.html
+	
+
 
 ## Usage
 
