@@ -19,6 +19,7 @@ Contents:
 - Python
 - Kvazaar
 - Pytube
+- GPAC
 
 
 ## Installation
@@ -39,7 +40,9 @@ Install Pytube library
 
 ## Usage
 
+There are three main steps for creation of 360 Tiled DASH Videos
 
+ ### Download 360 Videos
  
 
 
