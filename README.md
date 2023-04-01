@@ -53,7 +53,7 @@ There are three main steps for creation of 360 Tiled DASH Videos
 The following command downloads the video with the highest bitrate and resolution. The tool is designed to download the provided video IDs using the ___pytube___ library. It is important to ensure that the used libraries are up to date to avoid issues related to Google API updates. If the tool failed to download, an error message is printed to the screen. 
 
 ```console
-python video_downloads.py --path_to_config_file 
+$ python video_downloads.py --path_to_config_file 
 ```
 
 
