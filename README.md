@@ -107,3 +107,7 @@ The following command creates 360 dashed tiled videos based on the previously cr
 $ python encoding.py  
 
 ```
+
+**NOTE**
+
+Script encoding.py and  input.json file need to be in the same folder in order to above command work
