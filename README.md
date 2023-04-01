@@ -9,7 +9,7 @@ Contents:
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [360 Video Tiled Dataset](#360Dataset)
+- [360 Video Tiled Dataset](#360 Video Tiled Dataset)
 - [Caveats](#caveats)
 - [Acknowledgements](#acknowledgements)
 
