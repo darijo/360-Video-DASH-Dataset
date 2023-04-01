@@ -72,4 +72,4 @@ The template for configuration file is shown below
 
 ```
 
-
+The configuration file defines the base URL,the list of videos to download, and the location where to save downloaded videos.
