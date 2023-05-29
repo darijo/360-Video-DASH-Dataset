@@ -10,7 +10,7 @@ Contents:
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dataset](#dataset)
-- [Acknowledgements](#acknowledgements)
+- [Citation](#citation)
 
 
 ## Requirements
@@ -114,3 +114,8 @@ Script encoding.py and  input.json file need to be in the same folder in order t
 ## Dataset
 
 Real VR datset including 9 videos is available at https://tinyurl.com/3brdmm4s
+
+## Citation
+We kindly ask that should you mention any of our datasets, or use our code, in your publication, that you would reference the following paper:
+	
+	Darijo Raca, Yogita Jadhav, Jason Quinlan, and Ahmed H. Zahran. 2023. 360 Video DASH Dataset. In Proceedings of the 14th ACM Multimedia Systems Conference (MMSys '23). Association for Computing Machinery, New York, NY, USA.
